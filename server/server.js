@@ -23,6 +23,9 @@ if (process.env.NODE_ENV === "production") {
   app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../client"));
   });
+  app.get("/health", (req, res) => {
+    res.json({ message: "API server is healthy!" });
+  });
 }
 
 // Create a new instance of an Apollo server with the GraphQL schema
