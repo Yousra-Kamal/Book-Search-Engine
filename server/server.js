@@ -9,7 +9,9 @@ const app = express();
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  persistedQueries: false,
+  persistedQueries: {
+    ttl: 900, // 15 minutes
+  },
   context: authMiddleware,
 });
 const PORT = process.env.PORT || 3001;
