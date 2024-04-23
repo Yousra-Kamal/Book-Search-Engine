@@ -20,6 +20,6 @@
     "@apollo/client": "^3.7.1",
     "apollo-server-express": "^3.11.1",
     "express": "^4.17.2",
-    "graphql": "^16.6.0"
+    "graphql": "^16.8.1"
   }
 }
