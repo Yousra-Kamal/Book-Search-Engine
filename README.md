@@ -11,7 +11,7 @@ This application was created in the USYD Coding Bootcamp and refactors a Google 
 
 ## Live URL
 
-The web application is deployed to Render. Link to deployed website: [Book Search Engine]([https://](https://book-search-engine-gkd2.onrender.com/))
+The web application is deployed to Render. Link to deployed website: [Book Search Engine]([https://](https://book-search-engine-gkd2.onrender.com/)
 
 ## Screenshots
 
